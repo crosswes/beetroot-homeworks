@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(255, 255, 224, 0.501);
+}
+
+div {
+  font-family: Arial;
+  font-size: 18px;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+.nav-content {
+  margin-top: -45px;
+  padding: 35px;
+}
+.logo-box {
+  display: flex;
+  justify-content: center;
+}
+.logo-img {
+  height: 300px;
+  width: 300px;
+}
+.cafe-description {
+  padding-top: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 50px;
+}
+.heading-description {
+  padding-top: 150px;
+text-align: center;
+}
+.about {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
