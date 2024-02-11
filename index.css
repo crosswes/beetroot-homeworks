@@ -1,0 +1,16 @@
+/* body {
+  background-image: url(background-img.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.background-image {
+  background-image: url(background-img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(20px);
+}
+.hw-button {
+  background-color: white;
+} */

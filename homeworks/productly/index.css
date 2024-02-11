@@ -1,0 +1,81 @@
+* {
+  /* border: 1px red solid; */
+  box-sizing: content-box;
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Monsterrat;
+}
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 85%;
+  height: 50px;
+}
+.header {
+margin-bottom: 100px;
+}
+.header-content {
+  padding-right: 15px;
+}
+.header-content:last-child {
+  padding-right: 0;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+.nav-buttons-box {
+  display: flex;
+  gap: 20px;
+}
+.sing-in-button {
+  padding: 12px;
+  background-color: white;
+  color: black;
+  border-color: #BCD0E5;
+  border-radius: 4px;
+}
+.sing-up-button {
+  border-radius: 4px;
+  padding: 12px;
+  background-color: orange;
+  color: black;
+  border: none;
+}
+.main-wrapper {
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-heading {
+  font-weight: 700;
+}
+.main-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 500px;
+  height: 300px;
+}
+.get-started-button {
+  border: none;
+  border-radius: 4px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: orange;
+}
+.graphics {
+  scale: 0.9;
+}
