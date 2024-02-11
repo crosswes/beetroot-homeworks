@@ -5,9 +5,11 @@
   margin: 0;
   padding: 0;
 }
+/* font */
 body {
   font-family: Monsterrat;
 }
+/* this is wrapping header in 2 parts */
 .header-wrapper {
   display: flex;
   justify-content: space-between;
@@ -16,6 +18,7 @@ body {
   max-width: 85%;
   height: 50px;
 }
+/* header */
 .header {
 margin-bottom: 100px;
 }
@@ -49,6 +52,7 @@ margin-bottom: 100px;
   color: black;
   border: none;
 }
+/* main section */
 .main-wrapper {
   max-width: 85%;
   margin: 0 auto;
@@ -76,6 +80,7 @@ margin-bottom: 100px;
   padding-left: 40px;
   background-color: orange;
 }
+/* banner graphics */
 .graphics {
   scale: 0.9;
 }
