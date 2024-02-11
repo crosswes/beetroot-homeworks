@@ -1,13 +1,17 @@
 * {
-  /* border: 1px red solid; */
+  border: 1px red solid;
   box-sizing: content-box;
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   margin: 0;
   padding: 0;
 }
+svg {
+  border: none;
+}
 /* font */
 body {
-  font-family: Monsterrat;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
 }
 /* this is wrapping header in 2 parts */
 .header-wrapper {
@@ -15,12 +19,21 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  max-width: 85%;
-  height: 50px;
+}
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1170px;
 }
 /* header */
 .header {
-margin-bottom: 100px;
+  margin-bottom: 100px;
+  height: 50px;
+}
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header-content {
   padding-right: 15px;
@@ -30,26 +43,31 @@ margin-bottom: 100px;
 }
 .nav-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px;
   list-style: none;
 }
 .nav-buttons-box {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
-.sing-in-button {
-  padding: 12px;
-  background-color: white;
-  color: black;
-  border-color: #BCD0E5;
-  border-radius: 4px;
-}
+.sing-in-button,
 .sing-up-button {
   border-radius: 4px;
-  padding: 12px;
-  background-color: orange;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.sing-in-button {
+  border: 1px solid #bcd0e5;
+  background-color: white;
   color: black;
+}
+.sing-up-button {
+  background-color: orange;
+  color: white;
   border: none;
 }
 /* main section */
@@ -63,6 +81,11 @@ margin-bottom: 100px;
 }
 .main-heading {
   font-weight: 700;
+  font-size: 44px;
+}
+.description {
+  font-size: 18px;
+  font-weight: 400;
 }
 .main-text-content {
   display: flex;
@@ -74,13 +97,16 @@ margin-bottom: 100px;
 .get-started-button {
   border: none;
   border-radius: 4px;
-  padding-top: 13px;
-  padding-bottom: 13px;
+  height: 50px;
   padding-right: 40px;
   padding-left: 40px;
+  color: white;
   background-color: orange;
 }
-/* banner graphics */
+.get-started-button-text {
+  font-size: 16px;
+  font-weight: 700;
+}
 .graphics {
-  scale: 0.9;
+  max-width: 100%;
 }
