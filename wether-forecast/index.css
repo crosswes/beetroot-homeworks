@@ -1,0 +1,69 @@
+* {
+  border: 1px red solid;
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  /* background-color: rgb(64, 168, 224); */
+}
+.header {
+  max-width: 80%;
+
+}
+.header-wrapper {
+  max-width: 1170px;
+    display: flex;
+  justify-content: flex-start;
+
+}
+.main {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-wrapper {
+  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+.weather-first-line-wrapper,
+.weather-second-line-wrapper,
+.weather-third-line-wrapper,
+.weather-fourth-line-wrapper {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.weather-first-line-wrapper {
+
+}
+.weather-second-line-wrapper {
+
+}
+.weather-third-line-wrapper {
+
+}
+.weather-fourth-line-wrapper {
+}
+.lisbon-weather {
+  width: 50%;
+  display: flex;
+  align-items: center;
+ 
+}
+.paris-weather {
+  width: 25%
+}
+.belgrade-weather {
+  width: 25%
+}
+.sidney-weather {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
