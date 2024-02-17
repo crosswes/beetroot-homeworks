@@ -4,7 +4,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(64, 168, 224);
-  border: 25px solid #2B81AC;
+  border: 25px solid #2b81ac;
+  min-height: 100vh;
 }
 .header {
   display: flex;
@@ -78,14 +79,14 @@ body {
   display: flex;
   flex: 2;
   align-items: center;
-  background-color: #3399CC;
+  background-color: #3399cc;
 }
 .turqoise-weather-box {
   /* min-width: 25%; */
   display: flex;
   flex: 1;
   align-items: center;
-  background-color: #33CCCC;
+  background-color: #33cccc;
 }
 .dirtypink-weather-box {
   /* min-width: 25%; */
@@ -95,24 +96,24 @@ body {
   background-color: #996699;
 }
 .red-weather-box {
-  background-color: #C24747;
+  background-color: #c24747;
   display: flex;
   align-items: center;
 }
 .orange-weather-box {
   display: flex;
   align-items: center;
-  background-color: #E2674A;
+  background-color: #e2674a;
 }
 .yellow-weather-box {
   display: flex;
   align-items: center;
-  background-color: #FFCC66 ;
+  background-color: #ffcc66;
 }
 .lightgreen-weather-box {
   display: flex;
   align-items: center;
-  background-color: #99CC99;
+  background-color: #99cc99;
 }
 .dirtygreen-weather-box {
   display: flex;
@@ -122,7 +123,7 @@ body {
 .pink-weather-box {
   display: flex;
   align-items: center;
-  background-color: #CC6699;
+  background-color: #cc6699;
 }
 .green-weather-box {
   display: flex;
@@ -144,12 +145,11 @@ body {
   justify-content: flex-start;
   margin-top: 35px;
   margin-bottom: 120px;
-  color: #FFFFFF;
-  ;
+  color: #ffffff;
 }
-.footer-wrapper {
-  /* display: flex; */
-  /* justify-content: center;
+/* .footer-wrapper {
+  display: flex; */
+/* justify-content: center;
   align-items: center; */
-  /* max-width: fit-content; */
-}
+/* max-width: fit-content;
+} */

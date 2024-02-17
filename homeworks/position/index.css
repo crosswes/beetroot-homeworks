@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #111;
+}
+.square {
+  height: 700px;
+  width: 100%;
+  max-width: 700px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+.line {
+  width: calc(100% - 100px);
+  height: 1px;
+  background-color: #f1f1f1;
+  position: absolute;
+}
+.line--45 {
+  transform: rotate(45deg);
+}
+.line--90 {
+  transform: rotate(90deg);
+}
+.line--135 {
+  transform: rotate(135deg);
+}
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #480e63;
+  border: 12px solid #f1f1f1;
+  transition: transform 0.3s ease-out;
+}
+.circle-big {
+  border: 12px solid #480e63;
+  background-color: #f1f1f1;
+  max-height: 300px;
+  max-width: 300px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.circle-big:hover {
+  transform: scale(1.5);
+}
+.circle-big:active {
+  transform: rotateX(180deg);
+}
+.circle-small {
+  border: 12px solid #480e63;
+  background-color: #290148;
+  height: 200px;
+  width: 200px;
+  z-index: 3;
+  position: absolute;
+}
+.circle-small:hover {
+  transform: scale(0.5);
+}
+.circle-small:active {
+  transform: rotateY(180deg);
+}
+.circle--1 {
+  position: absolute;
+  left: 0;
+}
+.circle--1:hover {
+  transform: translate(45px);
+}
+.circle--1:active {
+  transform: scalex(1);
+}
+.circle--2 {
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+.circle--2:hover {
+  transform: translateX(25px) translateY(25px);
+}
+.circle--2:active {
+  transform: scalex(1);
+}
+.circle--3 {
+  position: absolute;
+  top: 0;
+}
+.circle--3:hover {
+  transform: translateY(50px);
+}
+.circle--3:active {
+  transform: scalex(1);
+}
+.circle--4 {
+  position: absolute;
+  top: 90px;
+  right: 90px;
+}
+.circle--4:hover {
+  transform: translateX(-25px) translateY(25px);
+}
+.circle--4:active {
+  transform: scalex(1);
+}
+.circle--5 {
+  position: absolute;
+  right: 0;
+}
+.circle--5:hover {
+  transform: translateX(-50px);
+}
+
+.circle--5:active {
+  transform: scalex(1);
+}
+.circle--6 {
+  position: absolute;
+  right: 90px;
+  bottom: 90px;
+}
+.circle--6:hover {
+  transform: translateX(-25px) translateY(-25px);
+}
+.circle--6:active {
+  transform: scalex(1);
+}
+.circle--7 {
+  position: absolute;
+  bottom: 0;
+}
+.circle--7:hover {
+  transform: translateY(-50px);
+}
+.circle--7:active {
+  transform: scalex(1);
+}
+.circle--8 {
+  position: absolute;
+  left: 90px;
+  bottom: 90px;
+}
+.circle--8:hover {
+  transform: translateX(25px) translateY(-25px);
+}
+.circle--8:active {
+  transform: scalex(1);
+}

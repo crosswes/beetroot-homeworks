@@ -14,3 +14,8 @@
 .hw-button {
   background-color: white;
 } */
+body {
+  background-color: #111;
+  color: #290148;
+  font-family: "Arial, Helvetica, sans-serif";
+}
