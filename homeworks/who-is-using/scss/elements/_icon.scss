@@ -1,0 +1,13 @@
+.icon-bg {
+  width: 760px;
+  height: 760px;
+  position: absolute;
+  top: 150px;
+  left: 825px;
+  fill: #EAEAEA;
+  z-index: -1 ;
+
+  &-container {
+    overflow: hidden;
+  }
+}

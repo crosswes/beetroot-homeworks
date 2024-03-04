@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../crosswes/Downloads/SVG - Freehand landing"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "freehand"
+	}
+}

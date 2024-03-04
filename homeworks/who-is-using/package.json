@@ -1,0 +1,12 @@
+{
+  "name": "who-is-using",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pug -w src/index.pug --out . --pretty"
+
+  },
+  "author": "Serdiuk Arsenii",
+  "license": "ISC"
+}

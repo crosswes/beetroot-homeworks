@@ -1,0 +1,37 @@
+.cards {
+  &-wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid #bfbfbf;
+    border-top: 1px solid #bfbfbf;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    column-gap: 30px;
+    row-gap: 30px;
+    display: grid;
+  }
+}
+.image-container-1 {
+  display: inline-block;
+  position: relative;
+}
+.display {
+  transition: opacity 0.3s ease;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
+.image-container {
+  display: inline-block;
+  position: relative;
+}
+.display {
+  transition: opacity 0.3s ease;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 0;
+}
+.image-container:hover img:last-child {
+  opacity: 1;
+}

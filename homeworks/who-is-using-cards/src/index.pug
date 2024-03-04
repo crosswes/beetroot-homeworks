@@ -1,0 +1,19 @@
+include ./elements/index
+include ./components/index
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Who's using documentation
+    //- Fonts
+    link(rel='preconnect' href='https://fonts.googleapis.com')
+    link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+    link(href='https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Francois+One&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:wght@500;600&family=Staatliches&family=Tourney:ital,wght@0,600;1,600&display=swap' rel='stylesheet')
+    //- Styles
+    link(rel="stylesheet" href="./index.css")
+  body 
+    +header
+    +title
+    +cards

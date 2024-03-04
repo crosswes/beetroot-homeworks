@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--c-base-dark);
+  height: auto;
+  
+  &-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  &-container-content {
+    color: white;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 40px;
+  }
+  &-container-content-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

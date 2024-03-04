@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+
+  &-content {
+    font-size: var(--fsize-article);
+    line-height: 48px;
+  }
+}
+
+// .background-image {
+//   position: absolute;
+//   left: 700px;
+//   overflow: hidden;
+//   top: 85px;
+//   height:950px;
+//   width: 950px;
+// }

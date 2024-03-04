@@ -1,0 +1,34 @@
+.main {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 1200px;
+  display: flex;
+
+    &-wrapper {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-content: center;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    &-head {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      gap: 15px;
+      letter-spacing: 0.2px;
+      width: 100%;
+
+    }
+    &-text-content {
+      color: #7690A8;
+    }
+    &-title {
+      font-family: var(--f-nunito-sans);
+      color: var(--c-base-dark);
+      font-weight: var(--fw-title);
+      font-size: var(--fs-title);
+    }
+}

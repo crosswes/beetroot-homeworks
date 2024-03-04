@@ -1,0 +1,14 @@
+.title {
+font-family: var(--f-roboto);
+font-size: var(--fsize-big);
+letter-spacing: 1px;
+margin-bottom: 40px;
+margin-top: 70px;
+color: #000;
+
+  &-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}

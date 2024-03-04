@@ -1,0 +1,15 @@
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  // height: auto;
+}
+// !change name
+.test {
+  display: flex;
+  align-items: center;
+  font-size: var(--fsize-main);
+  gap: 50px;
+}

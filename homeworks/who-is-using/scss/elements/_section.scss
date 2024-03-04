@@ -1,0 +1,21 @@
+.section {
+margin-bottom: 70px;
+display: flex;
+flex-direction: column;
+gap: 40px;
+
+  &-content {
+  display: flex;
+  gap: 20px;
+  }
+
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &:last-child {
+    margin-bottom: 90px;
+  }
+}

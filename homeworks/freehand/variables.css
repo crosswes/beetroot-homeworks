@@ -1,0 +1,22 @@
+:root {
+    /* *Colors */
+    --c-base-dark: #16133D;
+
+    /* * Fonts */
+    --f-base: "Roboto", sans-serif;
+    --f-quicksand: "Quicksand", sans-serif;
+    --f-nunito-sans: "Nunito Sans", sans-serif;
+    /* * Font sizes */
+    --fs-base: 16px;
+    --fs-logo: 35px;
+    --fs-title: 40px;
+    --fs-subtitle: 24px;
+    /* * Font weights */
+    --fw-base: 400;
+    --fw-logo: 500;
+    --fw-title: 600;
+    /* * Transitions
+    --t-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1); */
+    /* * Heights */
+    --h-header: 80px;
+}
