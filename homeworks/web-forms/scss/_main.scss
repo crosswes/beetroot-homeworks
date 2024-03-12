@@ -1,0 +1,32 @@
+* {
+  border: 1px solid rebeccapurple;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+}
+img {
+  border-radius: 50%;
+}
+imput[type="file"] {
+  display: none;
+}
+.form-profile-head-file-container {
+  border: 3px solid red;
+  width: 400px;
+}
+svg {
+  height: 24px;
+  width: 24px;
+}
+.form-profile-head-imput-file-container {
+  width: 150px;
+}
+.form-profile-file-imput {
+  display: none;
+}

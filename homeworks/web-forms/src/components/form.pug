@@ -1,0 +1,64 @@
+mixin form ()
+  .wrapper
+    form.form-account(method="get")
+      .form-title.form-account-title Create an Account
+      .form-account-fio-container
+        label.form-account-fio-name
+          span First Name
+          input.form-account-fie-name-input(type="text" name="name" placeholder="Enter your name")
+          .error
+        label.form-account-fio-surname
+          span Last Name
+          input.form-account-fio-surname(type="text" name="lastName" placeholder="Enter your Last name")
+          .error
+      .form-account-email-container
+        label.form-account-email 
+          span Email
+          input.form-account-email-input(type="email" name="email" placeholder="Enter your email")
+          .email-notification We'll never share your email with anyone else.
+          .error
+      .form-account-gendre 
+        label.form-account-gendre 
+          span Male
+          input.form-account-gendre-input(type="radio" name="gendre" value="male")
+        label.form-account-gendre 
+          span Female
+          input.form-account-gendre-input(type="radio" name="gendre" value="female")
+      .form-account-placement-container
+        label.form-account-country 
+          span Country
+          select(name="country")
+            option(disabled value="russia") Russia
+            option(value="usa") USA
+            option(selected value="ukraine") Ukraine
+            option(value="belarus") Belarus
+            option(value="kazakhstan") Kazakhstan
+            option(value="other") Other
+        label.form-account-city
+          span City
+          input.form-account-city-input(type="text" name="city" placeholder="Enter your city")
+          .error 
+        button.sign-up-button(type="submit") 
+          span Sign Up
+        .privacy-policy By clicking the 'Sign Up' button, you confirm that you accept our
+          a(href="#") Term of Use 
+          span and 
+          a(href="#") Privacy Policy
+        .divider 
+        .log-in-container
+          span Have an account?
+          a(href="#") Log In
+
+    form.form-profile(method="get") 
+      .form-title.form-profile-title  Profile
+      //- .form-profile-head-container
+      //-   label
+      //-     .form-profile-head-file-container
+      //-       img.form-profile-head-image(src="./assets/pictures/image.jpg" alt="Profile picture")
+      //-       .form-profile-head-upload-container
+      //-         .form-profile-head-file-limit-container
+      //-           .form-profile-head-imput-file-container
+      //-             input.form-profile-file-imput(type="file" name="file")
+      //-             +icon('Camera')
+      //-           +icon('Trash')
+      //-             span.form-profile-head-file-limit Up to 1 MB (300x300 px)
