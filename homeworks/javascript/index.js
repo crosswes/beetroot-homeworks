@@ -1,12 +1,13 @@
 const username = prompt('What is your name?');
 console.log ('Hello ' + username + '! Welcome to my website.');
 
-const age = prompt('Enter the year you were born');
+const YEAR = 2024
+const yearBirth = prompt('Enter the year you were born');
 const birthday = confirm('Have you already had a birthday this year?\nPress OK if yes, Cancel if not');
 if (birthday === true)
-  console.log ('Let me guess... I\'m sure you\'re ' + (age -1));
+  console.log ('Let me guess... I\'m sure you\'re ' + (YEAR - yearBirth));
 else if (birthday === false)
-console.log ('Let me guess... I\'m sure you\'re ' + (age));
+console.log ('Let me guess... I\'m sure you\'re ' + (YEAR - yearBirth - 1));
 
 const sideLenght = prompt('Write a lenght of the side in cm');
 console.log ('Here\'s the perimeter: ' + (sideLenght * 4) + 'cm²');
