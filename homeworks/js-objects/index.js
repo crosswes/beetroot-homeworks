@@ -1,5 +1,4 @@
-import { fractions } from "./fractions.js";
-
+import { fractions } from './fractions.js';
 
 const car = {
   manufacturer: 'lexus',
@@ -9,18 +8,17 @@ const car = {
   tankCapacity: 65,
   fuelConsumption: 11.2,
   drivers: [],
+  addDrivers: function () {
+    do {
+      let driverName = prompt('Type driver name');
+      this.drivers.push(driverName);
+      var addMoreDrivers = confirm('Do you want to add another driver?');
+    } while (addMoreDrivers);
+  },
 };
-function addDriver(driverName) {
-  car.drivers.push(driverName);
-  let addMoreDrivers = confirm('Do you want to add a driver?');
-  while (addMoreDrivers) {
-    addDriver(prompt('Type driver name'));
-    addMoreDrivers = confirm('Do you want to add another driver?');
-    if (!addMoreDrivers) {
-      break;
-    }
-  }
-}
+// код ни в какую не работал с конст и лет в конфирме, спросил гпт и он сказал поменять на вар и все заработало, не понимаю почему
+car.addDrivers();
+console.log(car);
 function showCarInfo() {
   console.log(car);
 }
@@ -102,9 +100,9 @@ function showTime() {
   );
 }
 
-addDriver();
-showCarInfo();
-wasTheDriver();
-calculateFuelForDistance();
-showTime();
-fractions()
+// addDriver();
+// showCarInfo();
+// wasTheDriver();
+// calculateFuelForDistance();
+// showTime();
+// fractions();
