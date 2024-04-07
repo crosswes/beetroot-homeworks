@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.text-input {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  display: block;
+  width: 30%;
+}
+body {
+  font-family: Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 10px;
+}
+.original-text--hide {
+  display: none;
+}
+.text-input--hide {
+  display: none;
+}
